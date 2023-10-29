@@ -1,0 +1,110 @@
+*{
+    font-family: 'Caveat', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #5cbdfd;
+}
+.container{
+    border:1px solid rgb(248, 253, 255);
+    border-radius: 20px;
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header{
+    text-align: start;
+    background-color: #34abfa;
+    color: #fff;
+    padding: 20px;
+}
+.gif{
+    width: 120px;
+    height: 90px;
+    float: left;
+    padding-right: 10px;
+}
+h1{
+    margin-left: 350px;
+    font-size: 50px;
+}
+nav.navbar {
+    margin-top: 20px;
+    margin-left: 250px;
+}
+nav.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17.8px;
+}
+nav.navbar a:hover{
+    color: black;
+    transition: 0.2s;
+    background-color: white;
+}
+main{
+    background-color: white;
+    padding: 10px;
+    height: 250px;
+}
+h2 {
+    margin-top: -10px;
+    font-size: 36px;
+}
+h2, p, .button {
+    align-items: start;
+}
+button{
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    color: black;
+}
+.img{
+    width: 350px;
+    height: 250px;
+    float: right;
+    margin-top: -220px;
+    
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: #34abfa;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+}
+.box h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.box a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    margin: 5px 0;
+}
+.box p {
+    margin: 5px 0;
+}
+.ele:hover{
+    color: black;
+}
